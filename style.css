@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #d9f0e1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #2c7a7b;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #2c7a7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #276768;
+}
+
+.output {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    max-width: 80%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.cube-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: repeat(3, 40px);
+    gap: 2px;
+    margin-top: 10px;
+}
+
+.tile {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
